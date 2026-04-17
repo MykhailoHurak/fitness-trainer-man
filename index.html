@@ -6,12 +6,12 @@
   <title>Elite Trainer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <style>
     /* ── CSS Variables ── */
     :root {
-      --accent: #E8FF47;
-      --accent-dim: rgba(232,255,71,.15);
+      --accent: #FF6B1A;
+      --accent-dim: rgba(255,107,26,.15);
       --transition: .35s cubic-bezier(.4,0,.2,1);
     }
 
@@ -41,7 +41,7 @@
     html { scroll-behavior: smooth; }
 
     body {
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Manrope', sans-serif;
       background: var(--bg);
       color: var(--text-primary);
       min-height: 100vh;
@@ -72,9 +72,9 @@
     .nav.scrolled { border-color: var(--border); padding-top: 14px; padding-bottom: 14px; }
 
     .nav-logo {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 1.8rem;
-      letter-spacing: .08em;
+      font-family: 'Russo One', sans-serif;
+      font-size: 1.7rem;
+      letter-spacing: .06em;
       color: var(--text-primary);
       text-decoration: none;
       display: flex; align-items: center; gap: 8px;
@@ -93,7 +93,7 @@
       gap: 2px;
     }
     .lang-btn {
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Manrope', sans-serif;
       font-size: .72rem;
       font-weight: 600;
       letter-spacing: .05em;
@@ -150,7 +150,7 @@
     .hero-badge {
       display: inline-flex; align-items: center; gap: 8px;
       background: var(--accent-dim);
-      border: 1px solid rgba(232,255,71,.3);
+      border: 1px solid rgba(255,107,26,.3);
       border-radius: 100px;
       padding: 6px 16px;
       font-size: .78rem;
@@ -172,10 +172,10 @@
     }
 
     .hero-title {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: clamp(3.5rem, 7vw, 7rem);
-      line-height: .95;
-      letter-spacing: .02em;
+      font-family: 'Russo One', sans-serif;
+      font-size: clamp(3rem, 6.5vw, 6.2rem);
+      line-height: 1;
+      letter-spacing: .01em;
       margin-bottom: 28px;
       opacity: 0;
       animation: fadeUp .7s .35s forwards;
@@ -201,7 +201,7 @@
     }
 
     .btn {
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Manrope', sans-serif;
       font-weight: 600;
       font-size: .95rem;
       letter-spacing: .03em;
@@ -228,11 +228,11 @@
     .btn-primary {
       background: var(--accent);
       color: #111;
-      box-shadow: 0 0 0 0 rgba(232,255,71,0);
+      box-shadow: 0 0 0 0 rgba(255,107,26,0);
     }
     .btn-primary:hover {
       transform: translateY(-3px);
-      box-shadow: 0 12px 40px rgba(232,255,71,.35);
+      box-shadow: 0 12px 40px rgba(255,107,26,.4);
     }
     .btn-primary svg { width: 18px; height: 18px; fill: #111; transition: transform .3s; }
     .btn-primary:hover svg { transform: translateX(4px); }
@@ -246,7 +246,7 @@
       transform: translateY(-3px);
       border-color: var(--accent);
       color: var(--accent);
-      box-shadow: 0 8px 30px rgba(232,255,71,.1);
+      box-shadow: 0 8px 30px rgba(255,107,26,.15);
     }
 
     /* Stats bar */
@@ -260,7 +260,7 @@
     }
     .stat-item {}
     .stat-num {
-      font-family: 'Bebas Neue', sans-serif;
+      font-family: 'Russo One', sans-serif;
       font-size: 2.4rem;
       color: var(--accent);
       line-height: 1;
@@ -337,7 +337,7 @@
     }
     .hero-card-text {}
     .hero-card-num {
-      font-family: 'Bebas Neue', sans-serif;
+      font-family: 'Russo One', sans-serif;
       font-size: 1.6rem;
       line-height: 1;
       color: var(--text-primary);
@@ -543,7 +543,7 @@
         Приклад: src="images/trainer.jpg"
       -->
       <img
-        src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=900&q=85&auto=format&fit=crop"
+        src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=900&q=85&auto=format&fit=crop&crop=top"
         alt="Personal Trainer"
         class="hero-img"
         loading="eager"
